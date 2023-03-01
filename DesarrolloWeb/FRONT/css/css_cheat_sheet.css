@@ -1,0 +1,155 @@
+body{
+    color:blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.893);
+  }
+  a {
+    color:rgb(64, 140, 255)
+  }
+  .border {
+    border: 4mm ridge rgba(255, 0, 230, 0.571);
+    background-color: rgba(173, 216, 230, 0.63);    
+    text-align: center;
+  }
+  .borderl {
+    border-left: 4mm ridge rgba(255, 0, 230, 0.571);
+    background-color: rgba(173, 216, 230, 0.63);    
+    text-align: center;
+  }
+  .borderr {
+    border-right: 4mm ridge rgba(255, 0, 230, 0.571);
+    background-color: rgba(173, 216, 230, 0.63);    
+    text-align: center;
+  }
+  .bordert {
+    border-top: 4mm ridge rgba(255, 0, 230, 0.571);
+    background-color: rgba(173, 216, 230, 0.63);    
+    text-align: center;
+  }
+  .borderb {
+    border-bottom: 4mm ridge rgba(255, 0, 230, 0.571);
+    background-color: rgba(173, 216, 230, 0.63);    
+    text-align: center;
+  }
+  .borderrad {
+    border-radius: 50% 20% / 10% 40%;
+    background-color: rgba(173, 216, 230, 0.63);   
+    text-align: center;
+  }
+  .backimg {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("https://th.bing.com/th/id/OIP._Tz_35U_WMSIKp2wYCTJCwHaGR?pid=ImgDet&rs=1");
+  }
+  .color {
+    color: lightblue;
+  }
+  .font {
+    font: italic small-caps bold 16px/2 cursive;
+  }
+  .fontfam {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .fontsty {
+    font-style: oblique;
+  }
+  .fontwe {
+    font-weight: 800;
+  }
+  .width {
+    width: 150px;
+    background-color: blueviolet;
+  }
+  .height {
+    height: 100px;
+    background-color: blueviolet;
+  }
+  ul {
+    list-style: square;
+  }
+  ul li::before {
+    content: "+ ";
+  }
+  .center {
+    margin: auto;
+    background: darkgreen;
+    width: 66%;
+  }
+  .outside {
+    margin: 3rem 0 0 -3rem;
+    background: darkcyan;
+    width: 66%;
+  }
+  .padd1 {
+    background-color: darkgreen;
+    padding: 20px 50px;
+  }
+  
+  .padd2 {
+    background-color: darkcyan;
+    padding: 110px 50px 50px 110px;
+  }
+  
+  .visible {
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    overflow: visible;
+  }
+  
+  .hidden {
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    overflow: hidden;
+  }
+  
+  .scroll {
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    overflow: scroll;
+  }
+
+  .auto {
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    overflow: auto;
+  }
+
+  p.ex1 {display: none; color: brown;}
+  p.ex2 {display: inline; color: brown;}
+  p.ex3 {display: block; color: brown;}
+  p.ex4 {display: inline-block; color: brown;}
+  
+  .disp{
+    display: inline;  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: darkred;
+    color: white;
+  }
+  
+  #two {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: darkblue;
+  }
+
+  img {
+    border: 5px solid yellow;
+  }
+  /* Gray the second image by 40% and blur by 5px */
+  img:nth-of-type(2) {
+    filter: grayscale(0.4) blur(5px);
+  }
+
+
+  
