@@ -39,7 +39,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: rgb(128, 51, 0);
+    color: #FE694B;
     transition: .3s;
 }
 
@@ -115,19 +115,19 @@ footer{
 }
 .inputBox input:valid ~ span,
 .inputBox input:focus ~ span {
-  color:aqua;
+  color:#FE694B;
   transform: translateX(10px) translateY(-7px);
   font-size: 0.65em;
   padding: 0 10px;
   background: black;
-  border-left: 1px solid aqua;
-  border-right: 1px solid aqua;
+  border-left: 1px solid #FE694B;
+  border-right: 1px solid #FE694B;
   letter-spacing: 0.2em;
 }
 
 .inputBox:nth-child(2) input:valid ~ span,
 .inputBox:nth-child(2) input:focus ~ span {
-  background: aqua;
+  background: #FE694B;
   color: black;
   border-radius: 2px;
     
@@ -136,7 +136,7 @@ footer{
 .inputBox input:valid,
 .inputBox input:focus
 {
-  border: 1px solid aqua;
+  border: 1px solid #FE694B;
 }
 
 .subscribe{
