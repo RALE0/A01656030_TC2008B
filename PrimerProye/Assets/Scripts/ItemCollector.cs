@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ItemCollector : MonoBehaviour
 {
-    private int kiwis = 0;
+    private int kiwis;
 
     [SerializeField] private AudioSource collectSound;
     
@@ -18,7 +18,8 @@ public class ItemCollector : MonoBehaviour
             Destroy(collision.gameObject);
             kiwis++;
             collectSound.Play();
-            kiwiScore.text = "Kiwis: " + kiwis;
+            kiwiScore.text = kiwis + "/5";
+            PlayerPrefs.SetInt("KiwiScore", kiwis);
         }
     } 
 }
