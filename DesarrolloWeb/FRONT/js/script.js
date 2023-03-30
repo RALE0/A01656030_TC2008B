@@ -377,3 +377,21 @@ function ordenarAZPalabra() {
   const orderText = caracteres.join("");
   document.getElementById("myList").textContent=orderText;
 }
+
+
+// Funcion que devuelve el numero de vocales de una palabra
+function numeroVocales() {
+  const inputText = document.getElementById("myInput").value;
+  const caracteres = inputText.split(""); // Para dividir string en char
+  let contador = 0;
+  for (let i = 0; i < caracteres.length; i++) {
+    if (caracteres[i] == "a" || caracteres[i] == "e" || caracteres[i] == "i" || caracteres[i] == "o" || caracteres[i] == "u") {
+      contador++;
+    }
+  }
+  document.getElementById("myList").textContent=contador;
+}
+
+// Funcion que devuelve el numero de consonantes de una palabra
+function numeroConsonantes() {
+  

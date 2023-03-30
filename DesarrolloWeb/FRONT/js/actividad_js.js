@@ -29,7 +29,7 @@ function firstNonRepeatedChar(text) {
     // Si no se encuentra ningún carácter que aparezca una sola vez, devolver null
     return null;
   }
-  
+// Ejercicio 11 JS
 function ordenarAZList() {
   const inputText = document.getElementById("myInput").value;
   const caracteres = inputText.split(""); // Para dividir string en char
