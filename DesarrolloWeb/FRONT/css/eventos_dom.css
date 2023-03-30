@@ -10,3 +10,8 @@
 table, td{
     border: 1px solid black;
 }
+
+body{
+    background-color: #000000e7;
+    color: aliceblue;
+}

@@ -61,6 +61,7 @@ public class Finish : MonoBehaviour
     {
         // Here we load the next level.
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        
     }
     // Here we create a function to stop the stopwatch.
     private void STOPstopwatch()
